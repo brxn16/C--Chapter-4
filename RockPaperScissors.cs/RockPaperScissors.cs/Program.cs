@@ -23,11 +23,11 @@ namespace RockPaperScissors.cs
             {
                 WriteLine("You chose Rock!");
             }
-            if (UsersNumber == 1)
+            else if (UsersNumber == 1)
             {
                 WriteLine("You chose Paper!");
             }
-            if (UsersNumber == 2)
+            else if (UsersNumber == 2)
             {
                 WriteLine("You chose Scissors!");
             }
@@ -35,11 +35,11 @@ namespace RockPaperScissors.cs
             {
                 WriteLine("The computer chose Rock!");
             }
-            if (number == 1)
+            else if (number == 1)
             {
                 WriteLine("The computer chose Paper!");
             }
-            if (number == 2)
+            else if (number == 2)
             {
                 WriteLine("The computer chose Scissors!");
             }
