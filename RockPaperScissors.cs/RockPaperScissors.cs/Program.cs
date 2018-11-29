@@ -16,7 +16,7 @@ namespace RockPaperScissors.cs
             int UsersNumber;
 
             WriteLine("Please choose Rock, Paper, or Scissors");
-            WriteLine("1 for Rock, 2 for Paper, and 3 for Scissors");
+            WriteLine("0 for Rock, 1 for Paper, and 2 for Scissors");
             UsersNumber = Convert.ToInt32(ReadLine());
 
             if (UsersNumber == 0)
